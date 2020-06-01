@@ -1,0 +1,31 @@
+.container-chat {
+    width: 50%;
+    margin: 5% auto;
+    border: 1px solid;
+    padding: 1%;
+    .chatbox {
+        .chat-list {
+            margin: 0;
+            list-style: none;
+            padding: 0;
+        }
+    }
+    input {
+        width: 80%;
+        height: 35px; 
+    }
+    button {
+        width: 20%;
+        display: inline-block;
+        margin-top: 2%;
+        padding: 10px 0;
+        color: #fff;
+        background-color: #4D8FAC;
+        transition: background .25s ease;
+        cursor: pointer;
+        border: none;
+        &:hover {
+            background: #5D8CAE;
+        }
+    }
+}

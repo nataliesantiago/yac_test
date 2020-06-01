@@ -1,0 +1,20 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    color: #05638c;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    a {
+        color: #05638c;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__items {
+        span {
+            padding: 0 5%;
+        }
+    }
+}
