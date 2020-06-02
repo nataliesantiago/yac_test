@@ -1,0 +1,40 @@
+.chatbox {
+    .chat-list {
+        .container-message {
+            width: 100%;
+            position: relative;
+            .content {
+                max-width: 80%;
+                display: inline-block;
+                background-color: #bbd5e0;
+                border-radius: 5px;
+                padding: 10px;
+                margin-bottom: 30px;
+                position: relative;
+                .user-name {
+                    font-weight: 600;
+                }
+                .message {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    p {
+                        margin: 0;
+                    }
+                }
+                .date {
+                    position: absolute;
+                    right: 0;
+                    bottom: -15px;
+                    font-size: 10px;
+                }
+            }
+            &.even {
+                text-align: right;
+                .content {
+                    background-color: #cecece;
+                }
+            }
+        }
+    }
+}
