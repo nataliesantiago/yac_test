@@ -1,5 +1,5 @@
 # yac
-Yet Another Chat
+Yet Another Chat 
 
 
 Must have the following features:
